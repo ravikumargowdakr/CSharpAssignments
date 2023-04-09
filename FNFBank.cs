@@ -38,6 +38,7 @@ namespace ConsoleApp1
                 else
                 {
                     Console.WriteLine("PIN DOES NOT MATCH");
+                    //If we want we can throw our custom Exception here also.
                 }
             }
             else
