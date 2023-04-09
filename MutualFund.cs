@@ -34,7 +34,7 @@ namespace ConsoleApp1
                 dashboard.GreenDisplay(CurrentRate);
             }
         }
-        public void ShowOnDashboard() //Only if we want to shore all data of rates.
+        public void ShowOnDashboard() //Only if we want to store all data of rates in list and then display(currently direct dislapy -this is not used).
         {
             
             foreach (int item in rateStore)
